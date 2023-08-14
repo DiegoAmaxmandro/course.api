@@ -1,2 +1,4 @@
-package com.course.service;public interface ModuleService {
+package com.course.service;
+
+public interface ModuleService {
 }
