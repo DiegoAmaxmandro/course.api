@@ -1,10 +1,8 @@
 package com.course.controllers;
 
-import com.course.dtos.CourseDto;
 import com.course.dtos.ModuleDto;
 import com.course.models.CourseModel;
 import com.course.models.ModuleModel;
-import com.course.repositories.ModuleRepository;
 import com.course.service.CourseService;
 import com.course.service.ModuleService;
 import com.course.specifications.SpecificationTemplate;
@@ -17,11 +15,9 @@ import org.springframework.data.web.PageableDefault;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import javax.validation.Valid;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
-import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
